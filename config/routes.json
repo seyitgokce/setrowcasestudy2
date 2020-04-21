@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "Apis.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getAvalibleAccount",
+      "handler": "Apis.getAvalibleAccount",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/createTransaction",
+      "handler": "Apis.createTransaction",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getTransactionDetail",
+      "handler": "Apis.getTransactionDetail",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getClosedTransaction",
+      "handler": "Apis.getClosedTransaction",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
